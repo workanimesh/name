@@ -1,0 +1,266 @@
+PFA,
+
+Vaibhav Chavan
+Deputy Manager
+Information Technology
+
+Regd. Office: 
+CCIL Bhavan, S. K. Bole Road, 
+Dadar (W), Mumbai - 400028
+Tel: +91 22 6154 6469 / 6154 6476 | Extn: 6359
+CIN: U65990MH2001PLC131804
+Website: www.ccilindia.co.in
+----- Forwarded by Vaibhav Chavan/CCIL on 09-03-2026 12:51 -----
+
+From:	Sudhir Rajgure/CCIL
+To:	Vaibhav Chavan/CCIL@CCIL
+Date:	26-02-2026 18:14
+Subject:	Fw: Re: Need Clarification for Signzy Response CERSAI Disability
+
+
+
+Thanks & Regards,
+Sudhir Rajgure
+IT Department
+
+Regd. Office: 
+CCIL Bhavan, S. K. Bole Road, 
+Dadar (W), Mumbai - 400028
+Tel: +91 22 6154 6238 | Extn: 6238 
+CIN: U65990MH2001PLC131804
+Website: www.ccilindia.com
+
+----- Forwarded by Sudhir Rajgure/CCIL on 02/26/2026 06:14 PM -----
+
+From:	"Ritesh Ramkrishna Kulkarni" <ritesh.kulkarni@signzy.com>
+To:	"srajgure" <srajgure@ccilindia.co.in>, "vsutar" <vsutar@ccilindia.co.in>
+Cc:	"mpandey" <mpandey@ccilindia.co.in>, "Team CCIL RD" <ccilrdteam@chelsoft.com>, "sbohra" <sbohra@ccilindia.co.in>, "Rishabh Gaur" <rishabh.gaur@signzy.com>, "Balaji Selvam" <balaji_s@chelsoft.com>, "Vaibhav Vadolia" <vaibhav_v@chelsoft.com>
+Date:	02/26/2026 06:11 PM
+Subject:	Re: Fw: Re: Need Clarification for Signzy Response CERSAI Disability
+
+
+
+CAUTION: This email originated from outside of our organization. Do not click on links, reply or open attachments unless you recognize the sender and know the content is safe.
+Hi sudhir, 
+
+PFA the pull merchant json body for the application id as discussed on call.
+
+Thanks and Regards
+Ritesh Kulkarni
+Technical Business Analyst
+ritesh.kulkarni@signzy.com
++91 9004018357
+www.signzy.com
+
+	
+Follow us:	         
+On Thu, 26 Feb, 2026, 11:17 am Ritesh Ramkrishna Kulkarni, <ritesh.kulkarni@signzy.com> wrote:
+Hi Balaji,
+
+Please check the Pull Merchant API response for a new application. It should now contain a single instance of the variable as expected.
+Please let us know if you encounter any further issues, and we can schedule a call to discuss this further.
+
+Thanks and Regards
+Ritesh Kulkarni
+Technical Business Analyst
+ritesh.kulkarni@signzy.com
++91 9004018357
+www.signzy.com
+
+	
+Follow us:	         
+
+On Tue, Feb 24, 2026 at 11:49 AM Ritesh Ramkrishna Kulkarni <ritesh.kulkarni@signzy.com> wrote:
+looping ++ @Rishabh Gaur 
+Thanks and Regards
+Ritesh Kulkarni
+Technical Business Analyst
+ritesh.kulkarni@signzy.com
++91 9004018357
+www.signzy.com
+
+	
+Follow us:	         
+
+On Mon, Feb 23, 2026 at 6:17 PM Balaji Selvam <balaji_s@chelsoft.com> wrote:
+Dear Team,
+We have reviewed the disability-related fields received in the Signzy Pull Merchant API response.
+As per earlier communication, the expected fields for the first holder are:
+disFlag
+disPercent
+disType
+disUdidNo
+However, in the actual API response received, the following values are observed "signzyAppId": 100000003875:
+"disPercent": ""
+"disType": ""
+"disUdidNo": ""
+"disFlag": ""
+"OFFLINEKYC": ""
+"disflag": "Yes"
+We note that:
+The mandatory field disFlag is received as empty.
+Both parameters "disFlag" and "disflag" are currently being received in the response. However, as per the agreed API specification, only the case-sensitive field "disFlag" is expected.
+
+
+	Balaji Selvam  Ph.: 8144410511  
+	Ilandhaikulam, Pandikovil Ring Road, 
+	Madurai - 625 020, India. 
+	www.chelsoft.com. 
+	
+	
+	
+	
+
+
+
+
+From: Ritesh Ramkrishna Kulkarni <ritesh.kulkarni@signzy.com>
+To: <mpandey@ccilindia.co.in>
+Cc: "Chitransh Rajesh"<chitransh@signzy.com>, "Selvam Balaji"<balaji_s@chelsoft.com>, "Team CCIL RD"<ccilrdteam@chelsoft.com>, <srajgure@ccilindia.co.in>, <sbohra@ccilindia.co.in>
+Date: Fri, 30 Jan 2026 13:54:21 +0530
+Subject: Re: Fw: Re: Need Clarification for Signzy Response CERSAI Disability
+
+Dear Manoj,
+
+Please find the requested variable mapping for the disability-related fields in the Signzy Pull merchant API response below:
+
+First holder
+- disFlag
+- disPercent
+- disType
+- disUdidNo
+
+Second holder
+- disFlag-2
+- disPercent-2
+- disType-2
+- disUdidNo-2
+
+Thanks and Regards
+Ritesh Kulkarni
+Technical Business Analyst
+ritesh.kulkarni@signzy.com
++91 9004018357
+www.signzy.com
+
+	
+Follow us:	         
+
+On Fri, Jan 30, 2026 at 12:58 PM <mpandey@ccilindia.co.in> wrote:
+
+Team, 
+
+As discussed, kindly share the exact response parameter names and response path where these fields are available. 
+
+
+
+
+
+
+
+With warm regards
+
+Manoj Pandey
+Product Development
+mpandey@ccilindia.co.in
+Ph: 61546358
+----- Forwarded by Manoj Pandey/CCIL on 30-01-2026 12:56 PM ----- 
+
+From:        "Vaibhav Vadolia" <vaibhav_v@chelsoft.com> 
+To:        "Sunil Bohra" <sbohra@ccilindia.co.in>, "Manoj Pandey" <mpandey@ccilindia.co.in>, "Vaibhav Sutar" <vsutar@ccilindia.co.in> 
+Cc:        "srajgure" <srajgure@ccilindia.co.in>, "kishore_s" <kishore_s@chelsoft.com>, "ccilrdteam" <ccilrdteam@chelsoft.com>, "Balaji Selvam" <balaji_s@chelsoft.com> 
+Date:        30-01-2026 10:55 AM 
+Subject:        Re: Need Clarification for Signzy Response CERSAI Disability 
+
+
+
+CAUTION: This email originated from outside of our organization. Do not click on links, reply or open attachments unless you recognize the sender and know the content is safe. 
++ Sunil Bohra 
++ Manoj Pandey 
++ Vaibhav Sutar 
+
+From: Balaji Selvam <balaji_s@chelsoft.com>
+To: <srajgure@ccilindia.co.in>
+Cc: <vaibhav_v@chelsoft.com>, <kishore_s@chelsoft.com>, <ccilrdteam@chelsoft.com>
+Date: Thu, 29 Jan 2026 22:55:41 +0530
+Subject: Re: Need Clarification for Signzy Response CERSAI Disability 
+
+Hi Sudhir, 
+
+We would like to highlight a discrepancy observed between the RD KYC Search API response and the Signzy Pull KYC API response. 
+
+From the RD side, the following disability-related fields are already available and populated in the C-KYC Search API response received from CERSAI: 
+
+- "disFlag" 
+- "disType" 
+- "disPercent" 
+- "disUdidNo" 
+
+However, while consuming the Signzy Pull KYC API, we are unable to locate the corresponding parameters for the above fields in the response payload. 
+
+Request you to please confirm: 
+
+1. Whether these disability-related fields are supported in the Signzy Pull KYC API response, and 
+2. If supported, kindly share the exact response parameter names and response path where these fields are available. 
+
+This will help us complete the RD-to-Signzy KYC response mapping accurately. 
+
+
+	Balaji Selvam   Ph.: 8144410511  
+	Ilandhaikulam, Pandikovil Ring Road,
+	Madurai - 625 020, India.
+	www.chelsoft.com.
+	
+	
+	
+	
+
+
+
+
+
+---- On Thu, 29 Jan 2026 22:29:17 +0530 dhamotharan_a@chelsoft.com wrote ----
+
+
+Hi Team, 
+
+Below are the old parameters for CERSAI disability: 
+​ 
+disFlag 
+disType 
+disPercent 
+disUdidNo 
+  
+However, in the current response, we have not received the values for the newly mapped parameters. Please confirm which field names have been assigned and are expected to be returned in the response. 
+
+
+Thanks&Regards 
+Dhamotharan A 
+
+	Dhamotharan Anbarasan   Ph.: 8681856597  
+	Ilandhaikulam, Pandikovil Ring Road,
+	Madurai - 625 020, India.
+	www.chelsoft.com.
+	
+	
+	
+	
+
+
+
+
+
+
+"Disclaimer and confidentiality clause -
+ This message and any attachments relating to official business of CCIL OR ANY OF IT'S SUBSIDIARIES is proprietary to CCIL and intended for the original addressee only.
+The message may contain information that is confidential and subject to legal privilege. 
+Any views expressed in this message are those of the individual sender. 
+If you have received this message in error, please notify the original sender immediately and destroy the message and copies thereof and any attachments contained in it .
+ If you are not the intended recipient of this message, you are hereby notified that you must not disseminate, copy, use, distribute, or take any action in connection therewith. 
+ CCIL cannot ensure that the integrity of this communication has been maintained nor that it is free of errors, viruses, interception and/or interference. 
+CCIL is not liable whatsoever for loss or damage resulting from the opening of this message and/or attachments and/or the use of the information contained in this message and/or attachments."
+
+
+
+
+
