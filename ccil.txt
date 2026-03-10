@@ -1,0 +1,2181 @@
+{
+    "result": {
+        "merchantSignup": {},
+        "merchantData": {
+            "basicDetails": {
+                "id": "699bfce15973b6001141489b",
+                "name": "PRAMOD NARAYAN PATIL",
+                "email": "giltsinvestor2@gmail.com",
+                "mobile": "8108877633",
+                "username": "CRRSA230226000092",
+                "rawPassword": null,
+                "realm": "ccil",
+                "applicationId": "612cd1e530dff3a071a2f1ad",
+                "isDeleted": false,
+                "backopsUserId": "68664634cd050ec131ce28e6",
+                "panNumber1": "BAKPP5708H",
+                "dob1": "03-07-1987",
+                "accountType": "SA",
+                "crn": "CRR/SA/2026/000092",
+                "applicantIdenticator": "Applicant",
+                "onboardingStartDate": 1771830497679,
+                "status": "accept",
+                "flowDetails": {
+                    "id": "61422144ab6ebdd4ad22d797",
+                    "name": "Single Holder",
+                    "pages": [
+                        {
+                            "pageName": "CKYC Details SH-2",
+                            "id": "682dc4df857dec7a240c9574",
+                            "type": "Manual Data Entry 2"
+                        },
+                        {
+                            "pageName": "Basic Personal Details",
+                            "id": "612d07df30dff3a071a2f386",
+                            "type": "Manual Data Entry"
+                        },
+                        {
+                            "pageName": "Bank_details",
+                            "id": "638eff9be6ac528e9e3e8170",
+                            "type": "Data&Document"
+                        },
+                        {
+                            "pageName": "Cheque_upload",
+                            "id": "638f10fe3021b41afe6ecc89",
+                            "type": "Manual Data Entry"
+                        },
+                        {
+                            "pageName": "Residential Address",
+                            "id": "612d139bc1354fa06b225e15",
+                            "type": "Manual Data Entry"
+                        },
+                        {
+                            "pageName": "Upload Signature",
+                            "id": "612d181ec1354fa06b225e20",
+                            "type": "Manual Data Entry"
+                        },
+                        {
+                            "pageName": "Nominee 1 and 2",
+                            "id": "612d1db630dff3a071a2f3f7",
+                            "type": "Manual Data Entry"
+                        },
+                        {
+                            "pageName": "FATCA Details",
+                            "id": "612d2b8e30dff3a071a2f464",
+                            "type": "Manual Data Entry"
+                        },
+                        {
+                            "pageName": "Document Upload Instruction",
+                            "id": "614ad92b9e599e83669a2dd2",
+                            "type": "Manual Data Entry"
+                        },
+                        {
+                            "pageName": "FATCA and PMLA Declaration",
+                            "id": "614e5a95320a7c4161b7b058",
+                            "type": "Manual Data Entry"
+                        },
+                        {
+                            "pageName": "Permanent Address Proof",
+                            "id": "614a53019e599e83669a2b75",
+                            "type": "Manual Data Entry 2"
+                        },
+                        {
+                            "pageName": "Permanent Address",
+                            "id": "6140f123ad2af74d93a78e20",
+                            "type": "Manual Data Entry"
+                        },
+                        {
+                            "pageName": "TPV Bank List",
+                            "id": "61520737a1f88f3e754e1369",
+                            "type": "Manual Data Entry"
+                        },
+                        {
+                            "pageName": "Individual PAN",
+                            "id": "6150d975f810e63ab29595a7",
+                            "type": "Data&Document"
+                        },
+                        {
+                            "pageName": "Video KYC",
+                            "id": "615aeb1127a76df3ef237350",
+                            "type": "VCIP"
+                        },
+                        {
+                            "pageName": "Single Holder Normal Contract",
+                            "id": "61e6f7a6022b28c291836b06",
+                            "type": "Contract"
+                        },
+                        {
+                            "pageName": "Navigation Description",
+                            "id": "62021e53eb20ca09a9e60d3c",
+                            "type": "Manual Data Entry"
+                        },
+                        {
+                            "pageName": "Offline Aadhaar",
+                            "id": "62b322a5f84785d1e1084498",
+                            "type": "Data&Document"
+                        },
+                        {
+                            "pageName": "DigiLocker Aadhaar",
+                            "id": "62b322d88ede8ead60462fac",
+                            "type": "Data&Document"
+                        },
+                        {
+                            "pageName": "sub page QS",
+                            "id": "637cc5633e6a38d04a9347a4",
+                            "type": "Manual Data Entry"
+                        },
+                        {
+                            "pageName": "NRE account details",
+                            "id": "637f31e33e6a38d04a936687",
+                            "type": "Manual Data Entry"
+                        },
+                        {
+                            "pageName": "Doc_Upload",
+                            "id": "63d0d449f24264d7c84c918e",
+                            "type": "Manual Data Entry"
+                        },
+                        {
+                            "pageName": "NRO_DOCUMENTS",
+                            "id": "6433a5490b8e730017b627f8",
+                            "type": "Manual Data Entry 2"
+                        },
+                        {
+                            "pageName": "OTP Verification",
+                            "id": "683032e87e114beadaa5bd98",
+                            "type": "Manual Data Entry 2"
+                        },
+                        {
+                            "pageName": "OTP Verification-SH",
+                            "id": "68480ad3305ab39635016f27",
+                            "type": "Manual Data Entry 2"
+                        },
+                        {
+                            "pageName": "CKYC Details - SH(Details)",
+                            "id": "68480b8764282556b2de8727",
+                            "type": "Manual Data Entry 2"
+                        }
+                    ],
+                    "dag": {
+                        "612d07df30dff3a071a2f386": {
+                            "ruleId": "699400747ffa4200188eec49",
+                            "ruleName": "RULE1",
+                            "success": "6433a5490b8e730017b627f8",
+                            "failure": "612d2b8e30dff3a071a2f464",
+                            "uncertain": "popuperror",
+                            "factVariables": [
+                                "Residential_Status1"
+                            ],
+                            "apis": [],
+                            "anyFlag": false,
+                            "noWidget": true,
+                            "widgetName": "",
+                            "factPageIds": [
+                                "612d07df30dff3a071a2f386"
+                            ],
+                            "popupMessage": "Something went wrong",
+                            "buttonText": "Okay",
+                            "handoffDetails": {
+                                "onSuccess": {
+                                    "isHandoff": false
+                                },
+                                "onFailure": {
+                                    "isHandoff": false
+                                },
+                                "onUncertain": {
+                                    "isHandoff": false
+                                }
+                            }
+                        },
+                        "612d2b8e30dff3a071a2f464": {
+                            "ruleId": "",
+                            "success": "614e5a95320a7c4161b7b058",
+                            "failure": "",
+                            "factVariables": "",
+                            "apis": "",
+                            "ruleName": "FATCA Details-FATCA and PMLA Declaration"
+                        },
+                        "612d139bc1354fa06b225e15": {
+                            "ruleId": "",
+                            "success": "612d181ec1354fa06b225e20",
+                            "failure": "",
+                            "factVariables": "",
+                            "apis": "",
+                            "ruleName": "Residential Address-Upload Signature"
+                        },
+                        "612d181ec1354fa06b225e20": {
+                            "ruleId": "",
+                            "success": "61520737a1f88f3e754e1369",
+                            "failure": "",
+                            "factVariables": "",
+                            "apis": "",
+                            "ruleName": "Upload Signature-TPV Bank List"
+                        },
+                        "612d1db630dff3a071a2f3f7": {
+                            "ruleId": "687a2f10f07328fc3ade27b4",
+                            "ruleName": "rule1x",
+                            "success": "29992-ALAaAOAq",
+                            "failure": "894403-AFAYAzAH",
+                            "uncertain": "popuperror",
+                            "factVariables": [
+                                "Adding_2nd_Nominee"
+                            ],
+                            "apis": [],
+                            "anyFlag": false,
+                            "noWidget": true,
+                            "widgetName": "",
+                            "factPageIds": [
+                                "612d1db630dff3a071a2f3f7"
+                            ],
+                            "handoffDetails": {
+                                "onSuccess": {},
+                                "onFailure": {},
+                                "onUncertain": {}
+                            }
+                        },
+                        "614ad92b9e599e83669a2dd2": {
+                            "ruleId": "62b32e9f26d565002a5e6ba4",
+                            "ruleName": "Digi Aadhaar Single Rule",
+                            "success": "62b322d88ede8ead60462fac",
+                            "failure": "62b322a5f84785d1e1084498",
+                            "uncertain": "error",
+                            "factVariables": [
+                                "aadhaarDocType"
+                            ],
+                            "apis": [],
+                            "anyFlag": false,
+                            "noWidget": true,
+                            "widgetName": "",
+                            "noRule": false,
+                            "noRuleText": "No rule required",
+                            "factPageIds": [
+                                "614ad92b9e599e83669a2dd2"
+                            ]
+                        },
+                        "614e5a95320a7c4161b7b058": {
+                            "ruleId": "",
+                            "success": "6140f123ad2af74d93a78e20",
+                            "failure": "",
+                            "factVariables": "",
+                            "apis": "",
+                            "ruleName": "FATCA and PMLA Declaration-Permanent Address"
+                        },
+                        "6140f123ad2af74d93a78e20": {
+                            "ruleId": "6152035d1069a8ee7a44c65e",
+                            "ruleName": "pa address proof rule",
+                            "success": "614a53019e599e83669a2b75",
+                            "failure": "612d139bc1354fa06b225e15",
+                            "uncertain": "error",
+                            "factVariables": [
+                                "PermanentAddress_Confirmation"
+                            ],
+                            "apis": [],
+                            "anyFlag": false,
+                            "noWidget": true,
+                            "widgetName": "",
+                            "noRule": false,
+                            "noRuleText": "No rule required",
+                            "factPageIds": [
+                                "6140f123ad2af74d93a78e20"
+                            ]
+                        },
+                        "614a53019e599e83669a2b75": {
+                            "ruleId": "",
+                            "success": "612d139bc1354fa06b225e15",
+                            "failure": "",
+                            "factVariables": "",
+                            "apis": "",
+                            "ruleName": "Permanent Address Proof-Residential Address"
+                        },
+                        "61520737a1f88f3e754e1369": {
+                            "ruleId": "",
+                            "success": "638eff9be6ac528e9e3e8170",
+                            "failure": "",
+                            "factVariables": "",
+                            "apis": "",
+                            "ruleName": "TPV Bank List-Bank_details"
+                        },
+                        "6150d975f810e63ab29595a7": {
+                            "ruleId": "65291135a5069e1a22512c44",
+                            "ruleName": "rule1",
+                            "success": "614ad92b9e599e83669a2dd2",
+                            "failure": "popuperror",
+                            "uncertain": "error",
+                            "factVariables": [
+                                "verified"
+                            ],
+                            "apis": [
+                                {
+                                    "apiId": "5d7b3053961a5913973de0ee",
+                                    "type": "verification",
+                                    "pageId": "6150d975f810e63ab29595a7",
+                                    "mapping": [
+                                        {
+                                            "number": "IndividualPanPanNumber",
+                                            "sourceType": "variable",
+                                            "value": "IndividualPanPanNumber",
+                                            "pageId": "6150d975f810e63ab29595a7",
+                                            "fact": "verified"
+                                        },
+                                        {
+                                            "name": "IndividualPanName",
+                                            "sourceType": "variable",
+                                            "value": "IndividualPanName",
+                                            "pageId": "6150d975f810e63ab29595a7"
+                                        },
+                                        {
+                                            "fuzzy": "false",
+                                            "sourceType": "hardcode",
+                                            "value": "false"
+                                        },
+                                        {
+                                            "extractionType": "individualPan",
+                                            "sourceType": "hardcode",
+                                            "value": "individualPan"
+                                        }
+                                    ],
+                                    "outputParams": [
+                                        "verified",
+                                        "message",
+                                        "upstreamName"
+                                    ],
+                                    "name": "Pan Verification",
+                                    "fact": "verified"
+                                }
+                            ],
+                            "anyFlag": false,
+                            "noWidget": true,
+                            "widgetName": "",
+                            "factPageIds": [],
+                            "popupMessage": "PAN Verification Failed",
+                            "handoffDetails": {
+                                "onSuccess": {
+                                    "isHandoff": false
+                                },
+                                "onFailure": {},
+                                "onUncertain": {}
+                            }
+                        },
+                        "615aeb1127a76df3ef237350": {
+                            "ruleId": "",
+                            "success": "summary",
+                            "failure": "",
+                            "factVariables": "",
+                            "apis": "",
+                            "ruleName": "Video KYC-Summary"
+                        },
+                        "61e6f7a6022b28c291836b06": {
+                            "ruleId": "",
+                            "success": "thanks",
+                            "failure": "",
+                            "factVariables": "",
+                            "apis": "",
+                            "ruleName": "Single Holder Normal Contract-Thank You"
+                        },
+                        "62021e53eb20ca09a9e60d3c": {
+                            "ruleId": "62962a809bd048002af74cdd",
+                            "ruleName": "vkyc single holder Rule",
+                            "success": "615aeb1127a76df3ef237350",
+                            "failure": "summary",
+                            "uncertain": "error",
+                            "factVariables": [
+                                "KYCMethod",
+                                "personalDetailsAccountHolderType",
+                                "personalDetailsAccountHolderType",
+                                "personalDetailsAccountHolderType",
+                                "personalDetailsAccountHolderType"
+                            ],
+                            "apis": [],
+                            "anyFlag": true,
+                            "noWidget": true,
+                            "widgetName": "",
+                            "noRule": false,
+                            "noRuleText": "No rule required",
+                            "factPageIds": [
+                                "614ca2faa034767c71842737",
+                                "614c8eb923c4d57c7798fd46",
+                                "614c8eb923c4d57c7798fd46",
+                                "614c8eb923c4d57c7798fd46",
+                                {
+                                    "value": "614c8eb923c4d57c7798fd46"
+                                }
+                            ]
+                        },
+                        "877028-AmAHASAw": {
+                            "ruleId": "6294a92db3d77da4125ad0ca",
+                            "ruleName": "CKYC 234 Single Holder Rule",
+                            "success": "6150d975f810e63ab29595a7",
+                            "failure": "popuperror",
+                            "uncertain": "error",
+                            "factVariables": [
+                                "personalDetailsAccountHolderType",
+                                "personalDetailsAccountHolderType",
+                                "personalDetailsAccountHolderType"
+                            ],
+                            "apis": [],
+                            "anyFlag": true,
+                            "noWidget": true,
+                            "widgetName": "",
+                            "noRule": false,
+                            "noRuleText": "No rule required",
+                            "factPageIds": [
+                                "614c8eb923c4d57c7798fd46",
+                                "614c8eb923c4d57c7798fd46",
+                                "614c8eb923c4d57c7798fd46"
+                            ],
+                            "popupMessage": "Proceed with Offline KYC Method as your CKYC Account Holder Type value is not equal to 01",
+                            "buttonText": "Next",
+                            "popupPageId": "6150d975f810e63ab29595a7"
+                        },
+                        "62b322d88ede8ead60462fac": {
+                            "ruleId": "632c5561f7532e0026ba144e",
+                            "ruleName": "DigiLocker Number Not Linked Rule Single Holder",
+                            "success": "62b322d88ede8ead60462fac",
+                            "failure": "612d07df30dff3a071a2f386",
+                            "uncertain": "popuperror",
+                            "factVariables": [
+                                "DigiLocker_AadhaarName"
+                            ],
+                            "apis": [],
+                            "anyFlag": false,
+                            "noWidget": true,
+                            "widgetName": "",
+                            "noRule": false,
+                            "noRuleText": "No rule required",
+                            "factPageIds": [
+                                {
+                                    "value": "62b322d88ede8ead60462fac"
+                                }
+                            ],
+                            "popupMessage": "Please link your mobile number to Aadhaar",
+                            "buttonText": "OK",
+                            "popupPageId": "62b322d88ede8ead60462fac"
+                        },
+                        "62b322a5f84785d1e1084498": {
+                            "ruleId": "",
+                            "success": "612d07df30dff3a071a2f386",
+                            "failure": "",
+                            "factVariables": "",
+                            "apis": "",
+                            "ruleName": "Offline Aadhaar-Basic Personal Details"
+                        },
+                        "947232-ArAVA1Ae": {
+                            "ruleId": "62eb7ecc10e365002abea2dc",
+                            "ruleName": "CKYC 01 Null Value rule",
+                            "success": "612d07df30dff3a071a2f386",
+                            "failure": "popuperror",
+                            "uncertain": "error",
+                            "factVariables": [
+                                "personalDetailsAccountHolderType"
+                            ],
+                            "apis": [],
+                            "anyFlag": false,
+                            "noWidget": true,
+                            "widgetName": "",
+                            "noRule": false,
+                            "noRuleText": "No rule required",
+                            "factPageIds": [
+                                "614c8eb923c4d57c7798fd46"
+                            ],
+                            "popupMessage": "Proceed with Offline KYC Method",
+                            "buttonText": "Next",
+                            "popupPageId": "6150d975f810e63ab29595a7"
+                        },
+                        "178209-AmAnAnAn": {
+                            "ruleId": "637cc9b8fda4260027ac2271",
+                            "ruleName": "01 CKYC RULE",
+                            "success": "637cc5633e6a38d04a9347a4",
+                            "failure": "popuperror",
+                            "uncertain": "popuperror",
+                            "factVariables": [
+                                "personalDetailsAccountHolderType"
+                            ],
+                            "apis": [],
+                            "anyFlag": false,
+                            "noWidget": true,
+                            "widgetName": "",
+                            "noRule": false,
+                            "noRuleText": "No rule required",
+                            "factPageIds": [
+                                "614c8eb923c4d57c7798fd46"
+                            ],
+                            "popupMessage": "Proceed With Offline KYC Method",
+                            "buttonText": "Next",
+                            "popupPageId": "6150d975f810e63ab29595a7"
+                        },
+                        "472859-AvA9AXAn": {
+                            "ruleId": "637ccb13fda4260027ac2272",
+                            "ruleName": "01 CKYC RULE SH",
+                            "success": "637cc5633e6a38d04a9347a4",
+                            "failure": "popuperror",
+                            "uncertain": "popuperror",
+                            "factVariables": [
+                                "personalDetailsAccountHolderType"
+                            ],
+                            "apis": [],
+                            "anyFlag": false,
+                            "noWidget": true,
+                            "widgetName": "",
+                            "noRule": false,
+                            "noRuleText": "No rule required",
+                            "factPageIds": [
+                                "614c8eb923c4d57c7798fd46"
+                            ],
+                            "popupMessage": "Proceed With Offline KYC Method",
+                            "buttonText": "Next",
+                            "popupPageId": "6150d975f810e63ab29595a7"
+                        },
+                        "637cc5633e6a38d04a9347a4": {
+                            "ruleId": "637ccbcf7eb6a4002d27b056",
+                            "ruleName": "CHECK RULE",
+                            "success": "612d07df30dff3a071a2f386",
+                            "failure": "6150d975f810e63ab29595a7",
+                            "uncertain": "error",
+                            "factVariables": [
+                                "CHECK1"
+                            ],
+                            "apis": [],
+                            "anyFlag": false,
+                            "noWidget": true,
+                            "widgetName": "",
+                            "noRule": false,
+                            "noRuleText": "No rule required",
+                            "factPageIds": [
+                                "637cc5633e6a38d04a9347a4"
+                            ]
+                        },
+                        "637f31e33e6a38d04a936687": {
+                            "ruleId": "",
+                            "success": "612d1db630dff3a071a2f3f7",
+                            "failure": "",
+                            "factVariables": "",
+                            "apis": "",
+                            "ruleName": "NRE account details-Nominee 1 and 2"
+                        },
+                        "638eff9be6ac528e9e3e8170": {
+                            "ruleId": "6426ae4a387b5971eaec463f",
+                            "ruleName": "rule1",
+                            "success": "637f31e33e6a38d04a936687",
+                            "failure": "615809-AjAfAQAK",
+                            "uncertain": "615809-AjAfAQAK",
+                            "factVariables": [
+                                "Residential_Status"
+                            ],
+                            "apis": [],
+                            "anyFlag": false,
+                            "noWidget": true,
+                            "widgetName": "",
+                            "noRule": false,
+                            "noRuleText": "No rule required",
+                            "factPageIds": [
+                                "612d07df30dff3a071a2f386"
+                            ],
+                            "handoffDetails": {
+                                "onSuccess": {},
+                                "onFailure": {},
+                                "onUncertain": {}
+                            }
+                        },
+                        "638f10fe3021b41afe6ecc89": {
+                            "ruleId": "",
+                            "success": "612d1db630dff3a071a2f3f7",
+                            "failure": "",
+                            "factVariables": "",
+                            "apis": "",
+                            "ruleName": "Cheque_upload-Nominee 1 and 2"
+                        },
+                        "660299-AIAaAyAs": {
+                            "ruleId": "63d11ccac280372a9876761b",
+                            "ruleName": "01 CKYC SINGLE HOLDER RULE",
+                            "success": "63d0d449f24264d7c84c918e",
+                            "failure": "popuperror",
+                            "uncertain": "popuperror",
+                            "factVariables": [
+                                "personalDetailsAccountHolderType"
+                            ],
+                            "apis": [],
+                            "anyFlag": false,
+                            "noWidget": true,
+                            "widgetName": "",
+                            "noRule": false,
+                            "noRuleText": "No rule required",
+                            "factPageIds": [
+                                "614c8eb923c4d57c7798fd46"
+                            ],
+                            "popupMessage": "Proceed With Offline KYC Method",
+                            "buttonText": "Next",
+                            "popupPageId": "6150d975f810e63ab29595a7",
+                            "handoffDetails": {
+                                "onSuccess": {},
+                                "onFailure": {},
+                                "onUncertain": {}
+                            }
+                        },
+                        "63d0d449f24264d7c84c918e": {
+                            "ruleId": "63d8ee31966ef00010cac007",
+                            "ruleName": "rule1",
+                            "success": "612d07df30dff3a071a2f386",
+                            "failure": "6150d975f810e63ab29595a7",
+                            "uncertain": "error",
+                            "factVariables": [
+                                "kyctypeconfirmation"
+                            ],
+                            "apis": [],
+                            "anyFlag": false,
+                            "noWidget": true,
+                            "widgetName": "",
+                            "noRule": false,
+                            "noRuleText": "No rule required",
+                            "factPageIds": [
+                                {
+                                    "value": "63d0d449f24264d7c84c918e"
+                                }
+                            ],
+                            "handoffDetails": {
+                                "onSuccess": {},
+                                "onFailure": {},
+                                "onUncertain": {}
+                            }
+                        },
+                        "594702-AUALAnAV": {
+                            "ruleId": "63da0b175310e800170fee85",
+                            "ruleName": "Rule 4Sx",
+                            "success": "152671-A9ACA3AH",
+                            "failure": "612d1db630dff3a071a2f3f7",
+                            "uncertain": "error",
+                            "factVariables": [
+                                "Nominee1_Share_DefaultValue"
+                            ],
+                            "apis": [],
+                            "anyFlag": false,
+                            "noWidget": true,
+                            "widgetName": "",
+                            "noRule": false,
+                            "noRuleText": "No rule required",
+                            "factPageIds": [
+                                "612d1db630dff3a071a2f3f7"
+                            ],
+                            "handoffDetails": {
+                                "onSuccess": {},
+                                "onFailure": {},
+                                "onUncertain": {}
+                            }
+                        },
+                        "411164-ATAhAjA4": {
+                            "ruleId": "63da0af45310e800170fee83",
+                            "ruleName": "Rule 2Sx",
+                            "success": "152671-A9ACA3AH",
+                            "failure": "popuperror",
+                            "uncertain": "error",
+                            "factVariables": [
+                                "sum"
+                            ],
+                            "apis": [
+                                {
+                                    "apiId": "5f3d60808b6e1f65994f14dd",
+                                    "type": "arithmetic",
+                                    "pageId": "612d1db630dff3a071a2f3f7",
+                                    "mapping": [
+                                        {
+                                            "variable1": "Nominee1_Share",
+                                            "sourceType": "variable",
+                                            "value": "Nominee1_Share",
+                                            "pageId": "612d1db630dff3a071a2f3f7",
+                                            "fact": "sum"
+                                        },
+                                        {
+                                            "variable2": "Nominee2_Share",
+                                            "sourceType": "variable",
+                                            "value": "Nominee2_Share",
+                                            "pageId": "612d1db630dff3a071a2f3f7"
+                                        }
+                                    ],
+                                    "outputParams": [
+                                        "sum"
+                                    ],
+                                    "name": "Addition",
+                                    "fact": "sum"
+                                }
+                            ],
+                            "anyFlag": false,
+                            "noWidget": true,
+                            "widgetName": "",
+                            "noRule": false,
+                            "noRuleText": "No rule required",
+                            "factPageIds": [],
+                            "popupMessage": "Total Share of Nominee(s) should be Equal to 100 !!",
+                            "buttonText": "",
+                            "popupPageId": "612d1db630dff3a071a2f3f7",
+                            "handoffDetails": {
+                                "onSuccess": {},
+                                "onFailure": {},
+                                "onUncertain": {}
+                            }
+                        },
+                        "152671-A9ACA3AH": {
+                            "ruleId": "63da0ae28ea3dc001e223822",
+                            "ruleName": "Rule 3Sx",
+                            "success": "615aeb1127a76df3ef237350",
+                            "failure": "summary",
+                            "uncertain": "error",
+                            "factVariables": [
+                                "personalDetailsAccountHolderType",
+                                "personalDetailsAccountHolderType",
+                                "personalDetailsAccountHolderType",
+                                "personalDetailsAccountHolderType",
+                                "kyctypeconfirmation"
+                            ],
+                            "apis": [],
+                            "anyFlag": true,
+                            "noWidget": true,
+                            "widgetName": "",
+                            "noRule": false,
+                            "noRuleText": "No rule required",
+                            "factPageIds": [
+                                "614c8eb923c4d57c7798fd46",
+                                "614c8eb923c4d57c7798fd46",
+                                "614c8eb923c4d57c7798fd46",
+                                "614c8eb923c4d57c7798fd46",
+                                "63d0d449f24264d7c84c918e"
+                            ],
+                            "handoffDetails": {
+                                "onSuccess": {},
+                                "onFailure": {},
+                                "onUncertain": {}
+                            }
+                        },
+                        "615809-AjAfAQAK": {
+                            "ruleId": "6426ae40936c5d02557c9893",
+                            "ruleName": "rule2",
+                            "success": "612d1db630dff3a071a2f3f7",
+                            "failure": "638f10fe3021b41afe6ecc89",
+                            "uncertain": "638f10fe3021b41afe6ecc89",
+                            "factVariables": [
+                                "bankAccountVerificationResponse"
+                            ],
+                            "apis": [],
+                            "anyFlag": false,
+                            "noWidget": true,
+                            "widgetName": "",
+                            "noRule": false,
+                            "noRuleText": "No rule required",
+                            "factPageIds": [
+                                {
+                                    "value": "638eff9be6ac528e9e3e8170"
+                                }
+                            ],
+                            "handoffDetails": {
+                                "onSuccess": {},
+                                "onFailure": {},
+                                "onUncertain": {}
+                            }
+                        },
+                        "6433a5490b8e730017b627f8": {
+                            "ruleId": "",
+                            "success": "612d2b8e30dff3a071a2f464",
+                            "failure": "",
+                            "factVariables": "",
+                            "apis": "",
+                            "ruleName": "NRO_DOCUMENTS-FATCA Details"
+                        },
+                        "843549-A4ARAKA5": {
+                            "ruleId": "63da0b235310e800170fee86",
+                            "ruleName": "Rule 1Sx",
+                            "success": "411164-ATAhAjA4",
+                            "failure": "594702-AUALAnAV",
+                            "uncertain": "error",
+                            "factVariables": [
+                                "Adding_2nd_Nominee"
+                            ],
+                            "apis": [],
+                            "anyFlag": false,
+                            "noWidget": true,
+                            "widgetName": "",
+                            "factPageIds": [
+                                "612d1db630dff3a071a2f3f7"
+                            ],
+                            "handoffDetails": {
+                                "onSuccess": {},
+                                "onFailure": {},
+                                "onUncertain": {}
+                            }
+                        },
+                        "664355-A2AzAuA4": {
+                            "ruleId": "65aabd758bfe6603051b4077",
+                            "ruleName": "Rule2SX",
+                            "success": "635052-ApAUARAZ",
+                            "failure": "popuperror",
+                            "uncertain": "error",
+                            "factVariables": [
+                                "sum"
+                            ],
+                            "apis": [
+                                {
+                                    "apiId": "5f3d60808b6e1f65994f14dd",
+                                    "type": "arithmetic",
+                                    "pageId": "612d1db630dff3a071a2f3f7",
+                                    "mapping": [
+                                        {
+                                            "variable1": "Nominee1_Share",
+                                            "sourceType": "variable",
+                                            "value": "Nominee1_Share",
+                                            "pageId": "612d1db630dff3a071a2f3f7",
+                                            "fact": "sum"
+                                        },
+                                        {
+                                            "variable2": "Nominee2_Share",
+                                            "sourceType": "variable",
+                                            "value": "Nominee2_Share",
+                                            "pageId": "612d1db630dff3a071a2f3f7"
+                                        }
+                                    ],
+                                    "outputParams": [
+                                        "sum"
+                                    ],
+                                    "name": "Addition",
+                                    "fact": "sum"
+                                }
+                            ],
+                            "anyFlag": false,
+                            "noWidget": true,
+                            "widgetName": "",
+                            "factPageIds": [],
+                            "popupMessage": "Total Share of Nominee(s) should be Equal to 100 !!",
+                            "popupPageId": "612d1db630dff3a071a2f3f7",
+                            "handoffDetails": {
+                                "onSuccess": {
+                                    "isHandoff": false
+                                },
+                                "onFailure": {
+                                    "isHandoff": false
+                                },
+                                "onUncertain": {
+                                    "isHandoff": false
+                                }
+                            }
+                        },
+                        "635052-ApAUARAZ": {
+                            "ruleId": "65aabd2979ab160315bea6c2",
+                            "ruleName": "Rule3sx",
+                            "success": "615aeb1127a76df3ef237350",
+                            "failure": "summary",
+                            "uncertain": "error",
+                            "factVariables": [
+                                "personalDetailsAccountHolderType",
+                                "personalDetailsAccountHolderType",
+                                "personalDetailsAccountHolderType",
+                                "personalDetailsAccountHolderType",
+                                "kyctypeconfirmation"
+                            ],
+                            "apis": [],
+                            "anyFlag": true,
+                            "noWidget": true,
+                            "widgetName": "",
+                            "factPageIds": [
+                                "614c8eb923c4d57c7798fd46",
+                                "614c8eb923c4d57c7798fd46",
+                                "614c8eb923c4d57c7798fd46",
+                                "614c8eb923c4d57c7798fd46",
+                                "63d0d449f24264d7c84c918e"
+                            ],
+                            "handoffDetails": {
+                                "onSuccess": {
+                                    "isHandoff": false
+                                },
+                                "onFailure": {
+                                    "isHandoff": false
+                                },
+                                "onUncertain": {
+                                    "isHandoff": false
+                                }
+                            }
+                        },
+                        "120722-ASAdAtA9": {
+                            "ruleId": "65aabd5279ab160315bea6c4",
+                            "ruleName": "rule4sx",
+                            "success": "635052-ApAUARAZ",
+                            "failure": "612d1db630dff3a071a2f3f7",
+                            "uncertain": "error",
+                            "factVariables": [
+                                "Nominee1_Share_DefaultValue"
+                            ],
+                            "apis": [],
+                            "anyFlag": false,
+                            "noWidget": true,
+                            "widgetName": "",
+                            "factPageIds": [
+                                "612d1db630dff3a071a2f3f7"
+                            ],
+                            "handoffDetails": {
+                                "onSuccess": {
+                                    "isHandoff": false
+                                },
+                                "onFailure": {
+                                    "isHandoff": false
+                                },
+                                "onUncertain": {
+                                    "isHandoff": false
+                                }
+                            }
+                        },
+                        "682dc4df857dec7a240c9574": {
+                            "ruleId": "",
+                            "success": "68480ad3305ab39635016f27",
+                            "failure": "",
+                            "factVariables": "",
+                            "apis": "",
+                            "ruleName": "CKYC Details SH-2-OTP Verification-SH"
+                        },
+                        "194107-ANAxAEAm": {
+                            "ruleId": "682dc977857dec11950c95ba",
+                            "ruleName": "rule2",
+                            "success": "63d0d449f24264d7c84c918e",
+                            "failure": "popuperror",
+                            "uncertain": "popuperror",
+                            "factVariables": [
+                                "accountHolderType"
+                            ],
+                            "apis": [],
+                            "anyFlag": false,
+                            "noWidget": true,
+                            "widgetName": "",
+                            "factPageIds": [
+                                "682dc4df857dec7a240c9574"
+                            ],
+                            "popupMessage": "Proceed With Offline KYC Method",
+                            "buttonText": "Next",
+                            "popupPageId": "6150d975f810e63ab29595a7",
+                            "handoffDetails": {
+                                "onSuccess": {
+                                    "isHandoff": false
+                                },
+                                "onFailure": {
+                                    "isHandoff": false
+                                },
+                                "onUncertain": {
+                                    "isHandoff": false
+                                }
+                            }
+                        },
+                        "683032e87e114beadaa5bd98": {
+                            "ruleId": "68386a987e114b68f9a611a9",
+                            "ruleName": "rule1",
+                            "success": "6150d975f810e63ab29595a7",
+                            "failure": "885278-AHAmAOAS",
+                            "uncertain": "popuperror",
+                            "factVariables": [
+                                "accountHolderType",
+                                "accountHolderType",
+                                "accountHolderType"
+                            ],
+                            "apis": [],
+                            "anyFlag": true,
+                            "noWidget": true,
+                            "widgetName": "",
+                            "factPageIds": [
+                                "683032e87e114beadaa5bd98",
+                                "683032e87e114beadaa5bd98",
+                                "683032e87e114beadaa5bd98"
+                            ],
+                            "handoffDetails": {
+                                "onSuccess": {
+                                    "isHandoff": false
+                                },
+                                "onFailure": {
+                                    "isHandoff": false
+                                },
+                                "onUncertain": {
+                                    "isHandoff": false
+                                }
+                            }
+                        },
+                        "468700-AMAQA1Aw": {
+                            "ruleId": "6830357e7e114b8829a5bddc",
+                            "ruleName": "rule2",
+                            "success": "63d0d449f24264d7c84c918e",
+                            "failure": "popuperror",
+                            "uncertain": "popuperror",
+                            "factVariables": [
+                                "accountHolderType"
+                            ],
+                            "apis": [],
+                            "anyFlag": false,
+                            "noWidget": true,
+                            "widgetName": "",
+                            "factPageIds": [
+                                "682dc4df857dec7a240c9574"
+                            ],
+                            "popupMessage": "Proceed With Offline KYC Method",
+                            "buttonText": "Next",
+                            "popupPageId": "6150d975f810e63ab29595a7",
+                            "handoffDetails": {
+                                "onSuccess": {},
+                                "onFailure": {},
+                                "onUncertain": {}
+                            }
+                        },
+                        "885278-AHAmAOAS": {
+                            "ruleId": "68386a90c8f408dcd88bb607",
+                            "ruleName": "rule2",
+                            "success": "63d0d449f24264d7c84c918e",
+                            "failure": "popuperror",
+                            "uncertain": "error",
+                            "factVariables": [
+                                "accountHolderType"
+                            ],
+                            "apis": [],
+                            "anyFlag": false,
+                            "noWidget": true,
+                            "widgetName": "",
+                            "factPageIds": [
+                                "683032e87e114beadaa5bd98"
+                            ],
+                            "popupMessage": "Proceed With Offline KYC Method",
+                            "buttonText": "Next",
+                            "popupPageId": "6150d975f810e63ab29595a7",
+                            "handoffDetails": {
+                                "onSuccess": {
+                                    "isHandoff": false
+                                },
+                                "onFailure": {
+                                    "isHandoff": false
+                                },
+                                "onUncertain": {
+                                    "isHandoff": false
+                                }
+                            }
+                        },
+                        "68480ad3305ab39635016f27": {
+                            "ruleId": "6859aaf7d7ad479bd1ae848e",
+                            "ruleName": "rule1",
+                            "success": "6150d975f810e63ab29595a7",
+                            "failure": "813678-AkAZACAT",
+                            "uncertain": "813678-AkAZACAT",
+                            "factVariables": [
+                                "otp",
+                                "OFFLINEKYC"
+                            ],
+                            "apis": [],
+                            "anyFlag": false,
+                            "noWidget": true,
+                            "widgetName": "",
+                            "factPageIds": [
+                                "68480ad3305ab39635016f27",
+                                "68480ad3305ab39635016f27"
+                            ],
+                            "handoffDetails": {
+                                "onSuccess": {
+                                    "isHandoff": false
+                                },
+                                "onFailure": {
+                                    "isHandoff": false
+                                },
+                                "onUncertain": {
+                                    "isHandoff": false
+                                }
+                            }
+                        },
+                        "68480b8764282556b2de8727": {
+                            "ruleId": "",
+                            "success": "612d07df30dff3a071a2f386",
+                            "failure": "",
+                            "factVariables": "",
+                            "apis": "",
+                            "ruleName": "CKYC Details - SH(Details)-Basic Personal Details"
+                        },
+                        "813678-AkAZACAT": {
+                            "ruleId": "6859aae8e9e9596597867cfd",
+                            "ruleName": "RULE2",
+                            "success": "68480b8764282556b2de8727",
+                            "failure": "popuperror",
+                            "uncertain": "error",
+                            "factVariables": [
+                                "errorDescription"
+                            ],
+                            "apis": [],
+                            "anyFlag": false,
+                            "noWidget": true,
+                            "widgetName": "",
+                            "factPageIds": [
+                                "68480ad3305ab39635016f27"
+                            ],
+                            "popupMessage": "Please enter the correct OTP or Proceed with offline KYC Method",
+                            "buttonText": "Proceed with offline KYC",
+                            "popupPageId": "6150d975f810e63ab29595a7",
+                            "handoffDetails": {
+                                "onSuccess": {
+                                    "isHandoff": false
+                                },
+                                "onFailure": {
+                                    "isHandoff": false
+                                },
+                                "onUncertain": {
+                                    "isHandoff": false
+                                }
+                            }
+                        },
+                        "29992-ALAaAOAq": {
+                            "ruleId": "687a2ee28fa3d92a298f3d34",
+                            "ruleName": "rule2x",
+                            "success": "6394-ATAXA0AO",
+                            "failure": "popuperror",
+                            "uncertain": "popuperror",
+                            "factVariables": [
+                                "sum"
+                            ],
+                            "apis": [
+                                {
+                                    "apiId": "5f3d60808b6e1f65994f14dd",
+                                    "type": "arithmetic",
+                                    "pageId": "612d1db630dff3a071a2f3f7",
+                                    "mapping": [
+                                        {
+                                            "variable1": "Nominee1_Share",
+                                            "sourceType": "variable",
+                                            "value": "Nominee1_Share",
+                                            "pageId": "612d1db630dff3a071a2f3f7",
+                                            "fact": "sum"
+                                        },
+                                        {
+                                            "variable2": "Nominee2_Share",
+                                            "sourceType": "variable",
+                                            "value": "Nominee2_Share",
+                                            "pageId": "612d1db630dff3a071a2f3f7"
+                                        }
+                                    ],
+                                    "outputParams": [
+                                        "sum"
+                                    ],
+                                    "name": "Addition",
+                                    "fact": "sum"
+                                }
+                            ],
+                            "anyFlag": false,
+                            "noWidget": true,
+                            "widgetName": "",
+                            "factPageIds": [],
+                            "popupMessage": "Total Share of Nominee(s) should be Equal to 100 !!",
+                            "popupPageId": "612d1db630dff3a071a2f3f7",
+                            "handoffDetails": {
+                                "onSuccess": {},
+                                "onFailure": {},
+                                "onUncertain": {}
+                            }
+                        },
+                        "894403-AFAYAzAH": {
+                            "ruleId": "687a2dc50adf9140fe09abd4",
+                            "ruleName": "rule3x",
+                            "success": "6394-ATAXA0AO",
+                            "failure": "612d1db630dff3a071a2f3f7",
+                            "uncertain": "6394-ATAXA0AO",
+                            "factVariables": [
+                                "Nominee1_Share_DefaultValue"
+                            ],
+                            "apis": [],
+                            "anyFlag": false,
+                            "noWidget": true,
+                            "widgetName": "",
+                            "factPageIds": [
+                                "612d1db630dff3a071a2f3f7"
+                            ],
+                            "handoffDetails": {
+                                "onSuccess": {},
+                                "onFailure": {},
+                                "onUncertain": {}
+                            }
+                        },
+                        "6394-ATAXA0AO": {
+                            "ruleId": "687a2d9af07328b963de276e",
+                            "ruleName": "rule4x",
+                            "success": "summary",
+                            "failure": "615aeb1127a76df3ef237350",
+                            "uncertain": "summary",
+                            "factVariables": [
+                                "IndividualPanName"
+                            ],
+                            "apis": [],
+                            "anyFlag": false,
+                            "noWidget": true,
+                            "widgetName": "",
+                            "factPageIds": [
+                                "6150d975f810e63ab29595a7"
+                            ],
+                            "handoffDetails": {
+                                "onSuccess": {},
+                                "onFailure": {},
+                                "onUncertain": {}
+                            }
+                        }
+                    },
+                    "applicationId": "612cd1e530dff3a071a2f1ad",
+                    "emailConfigId": "6194bcd1796753418a0c5970",
+                    "contractSettingsId": "6362546ac9ca8df409c9e60e",
+                    "userInitialInputPrefillConfig": {},
+                    "redirectUrl": null,
+                    "workflowUrl": null,
+                    "parallelPages": [
+                        {
+                            "label": "",
+                            "pages": ""
+                        }
+                    ],
+                    "progressBar": [],
+                    "type": "mainflow",
+                    "pageAfterSummary": "61e6f7a6022b28c291836b06",
+                    "templateData": {
+                        "isInstructionsRequired": true,
+                        "isThanksRequired": true,
+                        "isJourneyTerminationRequired": false,
+                        "instructionConfig": {
+                            "title": "Welcome to E-KYC Portal for opening RBI Retail Direct Gilt Account",
+                            "imageConfig": [
+                                {
+                                    "imageLink": "",
+                                    "imageText": ""
+                                },
+                                {
+                                    "imageLink": "",
+                                    "imageText": ""
+                                },
+                                {
+                                    "imageLink": "",
+                                    "imageText": ""
+                                },
+                                {
+                                    "imageLink": "",
+                                    "imageText": ""
+                                },
+                                {
+                                    "imageLink": "",
+                                    "imageText": ""
+                                }
+                            ],
+                            "textConfig": [
+                                {
+                                    "text": "Please keep following documents ready to ensure smooth KYC process."
+                                },
+                                {
+                                    "text": "a) Scanned Image of Signature(s) for account holder(s)."
+                                },
+                                {
+                                    "text": "b) Scanned image of Cancelled Cheque."
+                                },
+                                {
+                                    "text": "In case there is change in your permanent address, please keep scanned image of any of the following six Official Valid Documents ready."
+                                },
+                                {
+                                    "text": " - Valid Passport"
+                                },
+                                {
+                                    "text": " - Valid Driving License"
+                                },
+                                {
+                                    "text": " - Voter’s ID card"
+                                },
+                                {
+                                    "text": " - NREGA Job Card duly signed by an officer of the State Government"
+                                },
+                                {
+                                    "text": " - Letter issued by the National Population registered containing details of Name & address"
+                                },
+                                {
+                                    "text": "- Proof of possession of Aadhaar (Letter issued by UIDAI)"
+                                }
+                            ],
+                            "buttonText": "Start",
+                            "htmlText": "<header id=\"sec-61ce\" class=\"u-align-center-xs u-clearfix u-header u-header\">\n<div class=\"u-clearfix u-sheet u-sheet-1\">\n<h1 class=\"u-text u-text-1\" style=\"text-align: center;\"><span style=\"color: #dbab20;\"><a class=\"u-active-none u-border-none u-btn u-button-link u-button-style u-file-link u-hover-none u-none u-text-body-color u-btn-1\" style=\"color: #dbab20;\"><span style=\"font-size: 36pt;\"><span style=\"font-weight: bold;\">RESERVE&nbsp; BANK&nbsp; OF&nbsp; INDIA</span></span> <br /></a>&nbsp;<strong>RETAIL&nbsp; DIRECT</strong></span></h1>\n<a class=\"u-image u-logo u-image-1\" data-image-width=\"150\" data-image-height=\"160\"> <img class=\"u-logo-image u-logo-image-1\" style=\"display: block; margin-left: auto; margin-right: auto;\" src=\"https://preproduction-persist.signzy.tech/api/files/34743061/download/01f45a0f4c774e8ab81af700c4d2af09727ef05ef83e4b62992f1287f90f4a4c.png\" width=\"180\" height=\"186\" /> </a>\n<h1 style=\"text-align: center; color: #000000;\"><span style=\"color: #7e8c8d;\"><strong> Welcome to E-KYC Portal for opening RBI Retail Direct Gilt Account</strong></span></h1>\n</div>\n</header>\n<table style=\"border-collapse: collapse; width: 101.522%; height: 249.422px; border-color: #000000; border-style: solid;\" border=\"1\">\n<tbody>\n<tr style=\"height: 249.422px;\">\n<td style=\"width: 100%; height: 249.422px; border-style: solid;\">\n<p style=\"font-weight: bold; text-align: center;\"><span style=\"font-style: normal;\"> </span> <span style=\"font-size: 14pt; color: #000000;\">&nbsp;​Please keep the following documents ready to ensure a smooth KYC process.</span></p>\n<ol>\n<li><span style=\"font-size: 14pt;\">Scanned Image of Signature(s) for account holder(s).</span></li>\n<li><span style=\"font-size: 14pt;\">Scanned image of Cancelled Cheque. (optional)</span></li>\n<li><span style=\"font-size: 14pt;\">Original PAN card for Video KYC</span></li>\n<li><span style=\"font-size: 14pt;\">Mobile no. linked to Aadhaar</span></li>\n</ol>\n</td>\n</tr>\n</tbody>\n</table>\n<p><code></code></p>\n<table style=\"border-collapse: collapse; width: 101.405%; height: 228px; border-color: #000000; border-style: solid;\" border=\"1\">\n<tbody>\n<tr style=\"height: 197.344px;\">\n<td style=\"width: 100%; height: 197.344px;\">\n<p style=\"font-weight: bold; text-align: center;\"><span style=\"font-style: normal;\"> </span> <span style=\"color: #000000; font-size: 14pt;\">In case there is a change in your permanent address, please keep scanned images of any of the following six official valid documents ready.</span></p>\n<ol>\n<li class=\"u-text u-text-5\"><span style=\"font-size: 14pt;\">Valid Passport</span></li>\n<li class=\"u-text u-text-6\"><span style=\"font-size: 14pt;\">Valid Driving License</span></li>\n<li class=\"u-text u-text-7\"><span style=\"font-size: 14pt;\">Voter&rsquo;s ID card</span></li>\n<li class=\"u-text u-text-8\"><span style=\"font-size: 14pt;\">NREGA Job Card duly signed by an officer of the State Government</span></li>\n<li><span style=\"font-size: 14pt;\">Letter issued by the National Population registered containing details of Name &amp; address</span></li>\n<li><span style=\"font-size: 14pt;\">Proof of possession of Aadhaar (Letter issued by UIDAI)</span></li>\n</ol>\n</td>\n</tr>\n</tbody>\n</table>\n<style>\n        .button {\n          background-color: #293E81; /* Green */\n          border: none;\n          color: white;\n          padding: 15px 32px;\n          text-align: center;\n          text-decoration: none;\n          display: inline-block;\n          font-size: 16px;\n          margin: 4px 2px;\n          cursor: pointer;\n        }\n        .button5 {background-color: #bab4b4;} /* Black */\n</style>\n<section id=\"sec-aa12\" class=\"u-clearfix u-section-1\">\n<div class=\"u-clearfix u-sheet u-sheet-1\">\n<h3 class=\"u-text u-text-1\">&nbsp;</h3>\n<p><strong><!-- Adding button inside the link tag --></strong></p>\n<p style=\"text-align: center;\"><strong><a href=\"https://go-preproduction.signzy.app/page/682dc4df857dec7a240c9574\"> <button class=\"button button4\"> <span style=\"color: #ffffff; line-height: 2.5; font-size: 2rem; border-radius: 10px; border: 0; font-family: serif;\">Next</span> </button> </a></strong></p>\n</div>\n</section>\n<p><span class=\"u-back-to-top u-icon u-icon-circle u-opacity u-opacity-85 u-palette-1-base u-spacing-15\" style=\"height: 64px; width: 64px; margin-left: 0px; margin-right: auto; margin-top: 0px; background-image: none; right: 20px; bottom: 20px; display: none;\" data-href=\"#\"> <svg class=\"u-svg-link\" preserveaspectratio=\"xMidYMin slice\" viewbox=\"0 0 551.13 551.13\"><use xmlns:xlink=\"http://www.w3.org/1999/xlink\" xlink:href=\"#svg-1d98\"></use></svg> <svg class=\"u-svg-content\" enable-background=\"new 0 0 551.13 551.13\" viewbox=\"0 0 551.13 551.13\" xmlns=\"http://www.w3.org/2000/svg\" id=\"svg-1d98\"><path d=\"m275.565 189.451 223.897 223.897h51.668l-275.565-275.565-275.565 275.565h51.668z\"></path></svg> </span></p>\n<style>.u-disable-duration * {transition-duration: 0s !important;}</style>\n<style>.u-disable-duration * {transition-duration: 0s !important;}</style>\n<style>.u-disable-duration * {transition-duration: 0s !important;}</style>"
+                        },
+                        "thanksConfig": {
+                            "title": "Your application is received.",
+                            "imageConfig": [],
+                            "textConfig": [
+                                {
+                                    "text": "In case you have rescheduled VKYC for later time, please complete the same at scheduled time."
+                                }
+                            ],
+                            "htmlText": ""
+                        },
+                        "isHandoffRequired": false
+                    },
+                    "ttl": {
+                        "flowTTL": 360,
+                        "draftTTL": 360,
+                        "diyTTL": 360
+                    },
+                    "watermarkVariablesConfig": {},
+                    "otpVerificationConfig": {},
+                    "validateVpnOnSignIn": false,
+                    "disableBackButton": false,
+                    "locationCheckConfig": {
+                        "enableLocationAccess": false
+                    },
+                    "assignmentStrategyConfig": {
+                        "backopsAssignStrategy": "random",
+                        "backopsBucketSize": 1000000000
+                    },
+                    "handoffButtonText": "",
+                    "deGrantsConfig": {},
+                    "dynamicRedirection": {},
+                    "geoLocationConfig": {
+                        "enableGeoLocationAccess": false
+                    },
+                    "nonWorkingDayConfig": {},
+                    "priorityFlaggingConfig": {}
+                },
+                "autoLoginUrl": "https://go-preproduction.signzy.app/ccil/al/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhcHBsaWNhdGlvbklkIjoiNjEyY2QxZTUzMGRmZjNhMDcxYTJmMWFkIiwidW5pcXVlTWVyY2hhbnRJZGVudGlmaWVyIjoiZjg3ZDgxMDMtNGZhZi00ZjQ4LWJjMDItODVhNWQ5NDIwYzc1IiwidXNlcm5hbWUiOiJDUlJTQTIzMDIyNjAwMDA5MiIsImlhdCI6MTc3MTgzMDQ5N30.F0PbMXafwTXg3DVJ7hybuB4RimKsE8cUyAOELDBTm5A",
+                "uniqueMerchantIdentifier": "f87d8103-4faf-4f48-bc02-85a5d9420c75",
+                "loginUrl": "https://go-preproduction.signzy.app/ccil/login",
+                "shortLoginUrl": "https://go-preproduction.signzy.app/ccil/login",
+                "shortAutoLoginUrl": "https://go-preproduction.signzy.app/ccil/al/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhcHBsaWNhdGlvbklkIjoiNjEyY2QxZTUzMGRmZjNhMDcxYTJmMWFkIiwidW5pcXVlTWVyY2hhbnRJZGVudGlmaWVyIjoiZjg3ZDgxMDMtNGZhZi00ZjQ4LWJjMDItODVhNWQ5NDIwYzc1IiwidXNlcm5hbWUiOiJDUlJTQTIzMDIyNjAwMDA5MiIsImlhdCI6MTc3MTgzMDQ5N30.F0PbMXafwTXg3DVJ7hybuB4RimKsE8cUyAOELDBTm5A",
+                "signzyAppId": 100000003876,
+                "lastLoginAt": 1771840611153,
+                "lastVisitedPage": {
+                    "pageId": "61e6f7a6022b28c291836b06"
+                },
+                "eventLastUpdatedAt": 1771840375402,
+                "eventSource": "webapp",
+                "eventStatus": "onboardingCompleted",
+                "path": "[\"682dc4df857dec7a240c9574\",\"68480ad3305ab39635016f27\",\"6150d975f810e63ab29595a7\",\"614ad92b9e599e83669a2dd2\",\"62b322d88ede8ead60462fac\",\"612d07df30dff3a071a2f386\",\"612d2b8e30dff3a071a2f464\",\"614e5a95320a7c4161b7b058\",\"6140f123ad2af74d93a78e20\",\"612d139bc1354fa06b225e15\",\"612d181ec1354fa06b225e20\",\"61520737a1f88f3e754e1369\",\"638eff9be6ac528e9e3e8170\",\"638f10fe3021b41afe6ecc89\",\"612d1db630dff3a071a2f3f7\",\"615aeb1127a76df3ef237350\",\"61e6f7a6022b28c291836b06\"]",
+                "previousPageIds": [
+                    "682dc4df857dec7a240c9574",
+                    "68480ad3305ab39635016f27",
+                    "6150d975f810e63ab29595a7",
+                    "614ad92b9e599e83669a2dd2",
+                    "62b322d88ede8ead60462fac",
+                    "612d07df30dff3a071a2f386",
+                    "612d2b8e30dff3a071a2f464",
+                    "614e5a95320a7c4161b7b058",
+                    "6140f123ad2af74d93a78e20",
+                    "612d139bc1354fa06b225e15",
+                    "612d181ec1354fa06b225e20",
+                    "61520737a1f88f3e754e1369",
+                    "638eff9be6ac528e9e3e8170",
+                    "638f10fe3021b41afe6ecc89",
+                    "612d1db630dff3a071a2f3f7"
+                ],
+                "primaryLanguage": null,
+                "prevDigilockerId": "699c221e12661098618adae2",
+                "isVKYCCompleted": "true",
+                "callbacksTrail": [
+                    {
+                        "type": "vcip",
+                        "userId": "699bfce15973b6001141489b",
+                        "isSubflow": "false",
+                        "token": "",
+                        "date": 1771840755770
+                    }
+                ],
+                "waitingForCallback": "done",
+                "initialSubmissionDate": 1771840882089,
+                "onboardingEndDate": 1771840882089,
+                "subStatus": "notEscalated",
+                "designation": "Checker",
+                "decisionEngineResult": "uncertain",
+                "actionBy": "Checker_CCIL",
+                "actionTime": 1771841125595,
+                "backopsUser": {
+                    "id": "68664634cd050ec131ce28e6",
+                    "name": "Checker",
+                    "username": "Checker_CCIL",
+                    "email": "sunilbohra31@gmail.com",
+                    "password": "$2b$10$E6IsJBbwItBUsHCOTX1yvuQXs9jctR.1gONkUVzgdRzqFyO5uDNH2",
+                    "mobile": "9892129460",
+                    "realm": "ccil",
+                    "isDormant": null,
+                    "applicationId": "612cd1e530dff3a071a2f1ad",
+                    "managerToggle": "true",
+                    "manager": "6502c6d90cf27700b59680a7",
+                    "managerName": "adminlevel1",
+                    "profileSettings": null,
+                    "jobTimestamp": null,
+                    "employeeCode": "12",
+                    "applicationQueueViews": null,
+                    "designationId": "6482d9b808f5ce3377756188",
+                    "last5Passwords": [
+                        "$2b$10$zigWpAxt/9mOjlhRwYxAsuktopM9UqOTe.AwdiWwDm.wHVVe7eK16",
+                        "$2b$10$d47dktH1ycmyG4kK5AZ6CeaWotPiVmurYxDkPLjbBPGA9m.D5Mfcm",
+                        "$2b$10$E6IsJBbwItBUsHCOTX1yvuQXs9jctR.1gONkUVzgdRzqFyO5uDNH2"
+                    ],
+                    "passwordLastModifiedOn": 1764654812894,
+                    "branch": "Test",
+                    "flowIds": [
+                        "612d347130dff3a071a2f497",
+                        "61422144ab6ebdd4ad22d797"
+                    ],
+                    "active": true,
+                    "lowestLevel": false,
+                    "lastUpdatedAt": 1751533108338,
+                    "assignment": {
+                        "count": 0,
+                        "actionTaken": 0
+                    },
+                    "invalidLoginAttempt": 0,
+                    "invalidLoginAttemptSession": null,
+                    "lastLoginAt": 1771841109014,
+                    "otpExpiry": 1771841109014,
+                    "isPasswordExpired": false,
+                    "lastLogoutAt": 1769771777798,
+                    "lastResetPassword": 1764654736405,
+                    "resetPasswordCount": 0
+                },
+                "draftsCount": 0,
+                "instructions": "",
+                "newManagerId": "6482dbd8f1042b007471d1f8",
+                "reason": "",
+                "priority": null,
+                "executedRules": [
+                    {
+                        "id": "699bfd1c5973b6001141489d",
+                        "ruleName": "rule1",
+                        "sourceScreen": "OTP Verification-SH",
+                        "successDestination": "Individual PAN",
+                        "failureDestination": "813678-AkAZACAT",
+                        "result": "true",
+                        "merchantId": "699bfce15973b6001141489b",
+                        "pageId": "68480ad3305ab39635016f27",
+                        "uncertainDestination": "813678-AkAZACAT",
+                        "ruleId": "6859aaf7d7ad479bd1ae848e",
+                        "timeStamp": "2/23/2026, 7:09:16 AM"
+                    },
+                    {
+                        "id": "699bfd5c11f00a00187ed8fa",
+                        "ruleName": "rule1",
+                        "sourceScreen": "Individual PAN",
+                        "successDestination": "Document Upload Instruction",
+                        "failureDestination": "popuperror",
+                        "result": "true",
+                        "merchantId": "699bfce15973b6001141489b",
+                        "pageId": "6150d975f810e63ab29595a7",
+                        "uncertainDestination": "error",
+                        "ruleId": "65291135a5069e1a22512c44",
+                        "timeStamp": "2/23/2026, 7:10:20 AM"
+                    },
+                    {
+                        "id": "699bfd607b845800202febab",
+                        "ruleName": "Digi Aadhaar Single Rule",
+                        "sourceScreen": "Document Upload Instruction",
+                        "successDestination": "DigiLocker Aadhaar",
+                        "failureDestination": "Offline Aadhaar",
+                        "result": "true",
+                        "merchantId": "699bfce15973b6001141489b",
+                        "pageId": "614ad92b9e599e83669a2dd2",
+                        "uncertainDestination": "error",
+                        "ruleId": "62b32e9f26d565002a5e6ba4",
+                        "timeStamp": "2/23/2026, 7:10:24 AM"
+                    },
+                    {
+                        "id": "699c228c516f780012ce55aa",
+                        "ruleName": "DigiLocker Number Not Linked Rule Single Holder",
+                        "sourceScreen": "DigiLocker Aadhaar",
+                        "successDestination": "DigiLocker Aadhaar",
+                        "failureDestination": "Basic Personal Details",
+                        "result": "false",
+                        "merchantId": "699bfce15973b6001141489b",
+                        "pageId": "62b322d88ede8ead60462fac",
+                        "uncertainDestination": "popuperror",
+                        "ruleId": "632c5561f7532e0026ba144e",
+                        "timeStamp": "2/23/2026, 9:49:00 AM"
+                    },
+                    {
+                        "id": "699c229ebeb49c001f89919f",
+                        "ruleName": "RULE1",
+                        "sourceScreen": "Basic Personal Details",
+                        "successDestination": "NRO_DOCUMENTS",
+                        "failureDestination": "FATCA Details",
+                        "result": "false",
+                        "merchantId": "699bfce15973b6001141489b",
+                        "pageId": "612d07df30dff3a071a2f386",
+                        "uncertainDestination": "popuperror",
+                        "ruleId": "699400747ffa4200188eec49",
+                        "timeStamp": "2/23/2026, 9:49:18 AM"
+                    },
+                    {
+                        "id": "699c22b739acf10017f4b624",
+                        "ruleName": "pa address proof rule",
+                        "sourceScreen": "Permanent Address",
+                        "successDestination": "Permanent Address Proof",
+                        "failureDestination": "Residential Address",
+                        "result": "false",
+                        "merchantId": "699bfce15973b6001141489b",
+                        "pageId": "6140f123ad2af74d93a78e20",
+                        "uncertainDestination": "error",
+                        "ruleId": "6152035d1069a8ee7a44c65e",
+                        "timeStamp": "2/23/2026, 9:49:43 AM"
+                    },
+                    {
+                        "id": "699c23051865c60012fd291c",
+                        "ruleName": "rule1",
+                        "sourceScreen": "Bank_details",
+                        "successDestination": "NRE account details",
+                        "failureDestination": "615809-AjAfAQAK",
+                        "result": "Uncertain",
+                        "merchantId": "699bfce15973b6001141489b",
+                        "pageId": "638eff9be6ac528e9e3e8170",
+                        "uncertainDestination": "615809-AjAfAQAK",
+                        "ruleId": "6426ae4a387b5971eaec463f",
+                        "timeStamp": "2/23/2026, 9:51:01 AM"
+                    },
+                    {
+                        "id": "699c23051865c60012fd291d",
+                        "ruleName": "rule2",
+                        "sourceScreen": "615809-AjAfAQAK",
+                        "successDestination": "Nominee 1 and 2",
+                        "failureDestination": "Cheque_upload",
+                        "result": "false",
+                        "merchantId": "699bfce15973b6001141489b",
+                        "pageId": "615809-AjAfAQAK",
+                        "uncertainDestination": "Cheque_upload",
+                        "ruleId": "6426ae40936c5d02557c9893",
+                        "timeStamp": "2/23/2026, 9:51:01 AM"
+                    },
+                    {
+                        "id": "699c235669fcc8001143b207",
+                        "ruleName": "rule1x",
+                        "sourceScreen": "Nominee 1 and 2",
+                        "successDestination": "29992-ALAaAOAq",
+                        "failureDestination": "894403-AFAYAzAH",
+                        "result": "false",
+                        "merchantId": "699bfce15973b6001141489b",
+                        "pageId": "612d1db630dff3a071a2f3f7",
+                        "uncertainDestination": "popuperror",
+                        "ruleId": "687a2f10f07328fc3ade27b4",
+                        "timeStamp": "2/23/2026, 9:52:22 AM"
+                    },
+                    {
+                        "id": "699c235669fcc8001143b208",
+                        "ruleName": "rule3x",
+                        "sourceScreen": "894403-AFAYAzAH",
+                        "successDestination": "6394-ATAXA0AO",
+                        "failureDestination": "Nominee 1 and 2",
+                        "result": "true",
+                        "merchantId": "699bfce15973b6001141489b",
+                        "pageId": "894403-AFAYAzAH",
+                        "uncertainDestination": "6394-ATAXA0AO",
+                        "ruleId": "687a2dc50adf9140fe09abd4",
+                        "timeStamp": "2/23/2026, 9:52:22 AM"
+                    },
+                    {
+                        "id": "699c235669fcc8001143b209",
+                        "ruleName": "rule4x",
+                        "sourceScreen": "6394-ATAXA0AO",
+                        "successDestination": "summary",
+                        "failureDestination": "Video KYC",
+                        "result": "false",
+                        "merchantId": "699bfce15973b6001141489b",
+                        "pageId": "6394-ATAXA0AO",
+                        "uncertainDestination": "summary",
+                        "ruleId": "687a2d9af07328b963de276e",
+                        "timeStamp": "2/23/2026, 9:52:22 AM"
+                    }
+                ],
+                "backopsUserDetails": {
+                    "name": "Checker",
+                    "username": "Checker_CCIL",
+                    "email": "sunilbohra31@gmail.com",
+                    "mobile": "9892129460",
+                    "realm": "ccil",
+                    "applicationId": "612cd1e530dff3a071a2f1ad",
+                    "managerToggle": "true",
+                    "manager": "6502c6d90cf27700b59680a7",
+                    "managerName": "adminlevel1",
+                    "employeeCode": "12",
+                    "designationId": "6482d9b808f5ce3377756188",
+                    "last5Passwords": [
+                        "$2b$10$zigWpAxt/9mOjlhRwYxAsuktopM9UqOTe.AwdiWwDm.wHVVe7eK16",
+                        "$2b$10$d47dktH1ycmyG4kK5AZ6CeaWotPiVmurYxDkPLjbBPGA9m.D5Mfcm",
+                        "$2b$10$E6IsJBbwItBUsHCOTX1yvuQXs9jctR.1gONkUVzgdRzqFyO5uDNH2"
+                    ],
+                    "passwordLastModifiedOn": 1764654812894,
+                    "branch": "Test",
+                    "flowIds": [
+                        "612d347130dff3a071a2f497",
+                        "61422144ab6ebdd4ad22d797"
+                    ],
+                    "active": true,
+                    "lowestLevel": false,
+                    "lastUpdatedAt": 1751533108338,
+                    "assignment": {
+                        "count": 0,
+                        "actionTaken": 0
+                    },
+                    "invalidLoginAttempt": 0,
+                    "invalidLoginAttemptSession": null,
+                    "lastLoginAt": 1772089580604,
+                    "otpExpiry": 1772089580604,
+                    "isPasswordExpired": false,
+                    "lastLogoutAt": 1769771777798,
+                    "lastResetPassword": 1764654736405,
+                    "resetPasswordCount": 0
+                }
+            },
+            "documents": [
+                {
+                    "IndividualPanImage": "https://preproduction-persist.signzy.tech/api/files/45555622/download/7bec092d2c1f451d9d4eeaae7cb84094ab65fb555c0c40a3b78689605f34935b.png",
+                    "IndividualPanName": "PRAMOD NARAYAN PATIL",
+                    "IndividualPanDateOfBirth": "03/07/1987",
+                    "IndividualPanPanNumber": "BAKPP5708H",
+                    "type": "Individual Pan",
+                    "widgetName": "Individual PAN"
+                },
+                {
+                    "DigiAadhaarImage1": "https://preproduction-persist.signzy.tech/api/files/45559828/download/bfdaa881622045f19e7dfb22f765423be9a61aa80f2d406c99d3385417375782.pdf",
+                    "DigiLocker_AadhaarName": "PRAMOD NARAYAN PATIL",
+                    "DigiLockerAadhaar_MotherName": "Mummy",
+                    "AadhaarUid": "xxxxxxxx0937",
+                    "AadhaarVid": "",
+                    "DigiLocker_AadhaarDob": "03/07/1987",
+                    "DigiLocker_AadhaarYob": "",
+                    "DigiLocker_AadhaarPincode": "400075",
+                    "DigiLocker_AadhaarAddress": "FLAT 202 BUILDING NUMBER 75 A WING HAWARE IPSA VRINDAVAN COOPERATIVE SOCIETY GHATKOPAR EAST CTS NO 185 NEAR NEW PUBLIC SCHOOL PANTNAGAR MUMBAI MUMBAI SUBURBAN MAHARASHTRA 400075",
+                    "DigiLocker_AadhaarGender": "MALE",
+                    "AadhaarUidHash": "",
+                    "DigiLocker_AadhaarState": "MAHARASHTRA",
+                    "DigiLocker_AadhaarDistrict": "MUMBAI SUBURBAN",
+                    "DigiLocker_AadhaarCity": "MUMBAI",
+                    "DigiLocker_AadhaarCountry": "INDIA",
+                    "aadhaarPhoto": "https://persist.signzy.tech/api/files/1640051051/download/e623fc15d37f42d2ac6802080c0001cafe4a24e89683408e820cec02ce262249.jpeg",
+                    "AadhaarImage1": "https://persist.signzy.tech/api/files/1640050994/download/1da64e5922454856822b592753367fe50cc4fde39b8344af87f8efe1588d04aa.pdf",
+                    "imageUrl": "https://persist.signzy.tech/api/files/1640050994/download/1da64e5922454856822b592753367fe50cc4fde39b8344af87f8efe1588d04aa.pdf",
+                    "type": "Aadhaar",
+                    "widgetName": "Digilocker Aadhaar"
+                },
+                {
+                    "bankAccountVerificationAddress": "",
+                    "bankAccountVerificationPincode": "",
+                    "bankAccountVerificationBankName": "hdfc bank",
+                    "bankAccountVerificationMicrCode": "",
+                    "bankAccountVerificationBranch": "",
+                    "bankAccountVerificationName": "PRAMOD NARAYAN PATIL",
+                    "bankAccountVerificationActive": "no",
+                    "bankAccountVerificationIfsc": "HDFC0000012",
+                    "bankAccountVerificationAccountNumber": "023565200025",
+                    "BankAccountVerification_AccountType": "Savings",
+                    "beneName": "",
+                    "bankRRN": "",
+                    "beneMMID": "",
+                    "beneMobile": "",
+                    "bankAccountVerificationResponse": "Bank Account Verification Failed",
+                    "bankAccountVerificationAmountMatch": "",
+                    "bankAccountVerificationConsent": "true",
+                    "type": "Bank Account Verification",
+                    "widgetName": "Bank Account Verification"
+                }
+            ],
+            "formData": {
+                "panNo": "BAKPP5708H",
+                "dateOfBirth": "03-07-1987",
+                "mobileNo": "8108877633",
+                "accountHolderType": "",
+                "requestId": "50766000",
+                "widgetName": "Manual Data Entry",
+                "otp": "",
+                "errorDescription": "",
+                "personalDetailsConstitutionType": "",
+                "constituentType": "",
+                "ckycNo": "",
+                "applicantFirstName": "",
+                "applicantLastName": "",
+                "fatherOrSpouseNamePrefix": "",
+                "fatherOrSpouseMiddleName": "",
+                "fatherOrSpouseFullName": "",
+                "motherFirstName": "",
+                "motherLastName": "",
+                "gender": "",
+                "panNo1": "",
+                "permanentAddressLine2": "",
+                "permanentCity": "",
+                "permanentState": "",
+                "permanentPinCode": "",
+                "permanentCorrAddressSame": "",
+                "applicantNamePrefix": "",
+                "applicantMiddleName": "",
+                "applicantFullName": "",
+                "fatherOrSpouseFirstName": "",
+                "fatherOrSpouseLastName": "",
+                "motherNamePrefix": "",
+                "motherMiddleName": "",
+                "motherFullName": "",
+                "dateOfBirthOrIncorporation": "",
+                "permanentAddressLine1": "",
+                "permanentAddressLine3": "",
+                "permanentDistrict": "",
+                "permanentCountry": "",
+                "permanentProofOfAddress": "",
+                "placeOfDeclaration": "",
+                "kycVerificationDate": "",
+                "typeOfDocumentCode": "",
+                "typeOfDocumentDescription": "",
+                "kycVerificationName": "",
+                "kycVerificationDesig": "",
+                "kycVerificationBranch": "",
+                "kycVerificationEmpCode": "",
+                "organisationName": "",
+                "organisationCode": "",
+                "numberOfIdentifyDetails": "",
+                "numberOfRelatedPersons": "",
+                "numberOfImages": "",
+                "imageData": "",
+                "disPercent": "",
+                "disType": "",
+                "disUdidNo": "",
+                "disFlag": "",
+                "OFFLINEKYC": "KYC",
+                "aadhaarDocType": "DigiLocker Aadhaar",
+                "AadhaarConsent": "Aadhaar Consent",
+                "OccupationType": "Private Sector",
+                "EducationalQualification": "Post Graduate",
+                "Email_Id": "giltsinvestor2@gmail.com",
+                "IncomeLevel": "Above Rs. 25 Lakhs",
+                "Residential_Status1": "Resident",
+                "Nationality_Default": "Indian",
+                "Country_of_Birth": "India",
+                "State_of_Birth": "MAHARASHTRA",
+                "Date_of_Birth": "",
+                "One_Nominee_Default_Share": "100",
+                "Politically_Exposed_Person": "No",
+                "FATCA_Applicable": "No",
+                "Country_Of_Tax_Residency_India": "India",
+                "CoTXForeignQuestion": "No",
+                "FATCAConsent": "Yes",
+                "PermanentAddress_Confirmation": "Yes",
+                "addres44": "No",
+                "addressline1": "501 A WONG",
+                "addressline2": "POONAM SAGAR COMPLEX",
+                "Addressline3": "",
+                "City": "MUMBAI",
+                "Pincode": "401107",
+                "state": "MAHARASHTRAA",
+                "Country": "BHARAT",
+                "UploadSign": "https://preproduction-persist.signzy.tech/api/files/45559835/download/58899b41ae4148aca90f8fe76d400242009803aac9fb4f6586d68efa55a178ec.png",
+                "TPV_Bank_List": "HDFC Bank",
+                "bankAccountVerificationImage": "https://preproduction-persist.signzy.tech/api/files/45559843/download/143f63a550d046a09b93fb789b893e34a3d331ee2833410e979a3694ba9b4b8d.png",
+                "Nominee1_Salutation": "Mr.",
+                "Nominee1_Name": "MUMMY",
+                "Nominee1_MinorCheck": "No",
+                "nomiee1dob": "01/01/1945",
+                "Residential_Status": "Resident",
+                "Nominee1_Relationship": "Mother",
+                "Nominee1_Address": "501 AWING POONAM SAGAR COMPLEX",
+                "Nominee1_MobileNumber": "9892129460",
+                "Nominee1_Email": "XYZ@GMAIL.COM",
+                "Nominee1_Bank_Name": "",
+                "Nominee1_Bank_IFSC": "ICIC0000012",
+                "Nominee1_Bank_BranchName": "MIRA ROAD",
+                "Nominee1_Bank_AccountNumber": "0232656800000",
+                "Nominee1_Bank_AccountType": "Savings",
+                "Nominee1_Share_DefaultValue": "100",
+                "Adding_2nd_Nominee": "No"
+            },
+            "videoForensics": {},
+            "videoKyc": [
+                {
+                    "isVideoProcessing": false,
+                    "callStatus": "",
+                    "appAndLocationInfo": null,
+                    "vcipErrorCode": null,
+                    "Remark": "Successful call",
+                    "adminDetails": {
+                        "username": "Anmol",
+                        "email": "anmolmuku@signzy.com",
+                        "name": "Anmol Muku",
+                        "phone": "8999175645"
+                    },
+                    "browserData": {
+                        "browserName": "Chrome Mobile",
+                        "cookieEnabled": "true",
+                        "browserLanguage": "en-IN",
+                        "os": "Android",
+                        "userAgent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Mobile Safari/537.36",
+                        "screenWidth": "412",
+                        "screenHeight": "892",
+                        "screenPixelDepth": "24",
+                        "screenColorDepth": "24",
+                        "deviceInfo": {
+                            "is_mobile": true,
+                            "complete_device_name": " ",
+                            "form_factor": "smartphone",
+                            "os": {
+                                "name": "Android",
+                                "version": "10.0",
+                                "platform": ""
+                            }
+                        },
+                        "browserVersion": "144.0"
+                    },
+                    "callDuration": {
+                        "startTime": 1771840655234,
+                        "endTime": 1771840738869
+                    },
+                    "callbackStatus": "successful",
+                    "documents": [
+                        {
+                            "pageId": "62b322d88ede8ead60462fac",
+                            "data": {
+                                "Name": "PRAMOD NARAYAN PATIL",
+                                "Uid": "xxxxxxxx0937",
+                                "Date Of Birth": "03/07/1987",
+                                "Pincode": "400075",
+                                "Address": "FLAT 202 BUILDING NUMBER 75 A WING HAWARE IPSA VRINDAVAN COOPERATIVE SOCIETY GHATKOPAR EAST CTS NO 185 NEAR NEW PUBLIC SCHOOL PANTNAGAR MUMBAI MUMBAI SUBURBAN MAHARASHTRA 400075",
+                                "Gender": "MALE",
+                                "State": "MAHARASHTRA",
+                                "District": "MUMBAI SUBURBAN",
+                                "City": "MUMBAI",
+                                "Country": "INDIA"
+                            },
+                            "images": [
+                                "https://preproduction-persist.signzy.tech/api/files/45559828/download/bfdaa881622045f19e7dfb22f765423be9a61aa80f2d406c99d3385417375782.pdf"
+                            ],
+                            "image": "https://preproduction-persist.signzy.tech/api/files/45559828/download/bfdaa881622045f19e7dfb22f765423be9a61aa80f2d406c99d3385417375782.pdf",
+                            "useForFaceMatch": true,
+                            "documentExpiry": "",
+                            "widgetName": "Digilocker Aadhaar"
+                        },
+                        {
+                            "pageId": "6150d975f810e63ab29595a7",
+                            "data": {
+                                "verified": "Safe",
+                                "Name": "PRAMOD NARAYAN PATIL",
+                                "Date Of Birth": "03/07/1987",
+                                "PAN": "BAKPP5708H"
+                            },
+                            "images": [
+                                "https://preproduction-persist.signzy.tech/api/files/45555622/download/7bec092d2c1f451d9d4eeaae7cb84094ab65fb555c0c40a3b78689605f34935b.png"
+                            ],
+                            "image": "https://preproduction-persist.signzy.tech/api/files/45555622/download/7bec092d2c1f451d9d4eeaae7cb84094ab65fb555c0c40a3b78689605f34935b.png",
+                            "useForFaceMatch": true,
+                            "documentExpiry": "",
+                            "documentAuthenticatedOn": 1771830569808,
+                            "widgetName": "Individual PAN"
+                        }
+                    ],
+                    "email": "giltsinvestor2@gmail.com",
+                    "eventLogs": {},
+                    "facematchScore": "0",
+                    "fieldValues": {
+                        "Remark": "Successful call"
+                    },
+                    "forenseicsData": {},
+                    "geo": {
+                        "countryName": "INDIA",
+                        "shortName": "IN",
+                        "complete": "THE CLEARING CORPORATION OF INDIA LTD F.P. NO. 822, COLLEGE LANE, RAOBAHADUR SK BOLE RD, CHANDRAKANT DHURU WADI, DADAR, MUMBAI, MAHARASHTRA 400028, INDIA",
+                        "city": "MUMBAI",
+                        "zipCode": "400028",
+                        "state": "MAHARASHTRA",
+                        "stateCode": "MH",
+                        "regionName": "MAHARASHTRA",
+                        "ipAddress": "106.222.208.153",
+                        "latitude": "19.0192369",
+                        "longitude": "72.8350901"
+                    },
+                    "inFlowSummary": [
+                        {
+                            "imageTaken": "",
+                            "facematchScore": "null",
+                            "facematchDesc": null,
+                            "question": "What is your Date of Birth?"
+                        },
+                        {
+                            "imageTaken": "https://persist-vkyc-preproduction.signzy.app/api/base64strings/245196/download/601613512a3b403ea1264399104eecf7db0f16b8f9694a1980ccfc868541bdb6.jpeg",
+                            "facematchScore": "99",
+                            "facematchDesc": [
+                                {
+                                    "documentType": "DigiLocker Aadhaar",
+                                    "facematchScore": 99
+                                },
+                                {
+                                    "documentType": "Individual PAN",
+                                    "facematchScore": 0
+                                }
+                            ],
+                            "question": "What is your name?"
+                        },
+                        {
+                            "imageTaken": "https://persist-vkyc-preproduction.signzy.app/api/base64strings/245197/download/a9777ff189154ecfb87138c44fe68ba38eb22c6f6e2b44d5826925c1b17ca265.jpeg",
+                            "facematchScore": "0",
+                            "facematchDesc": [
+                                {
+                                    "documentType": "DigiLocker Aadhaar",
+                                    "facematchScore": 0
+                                },
+                                {
+                                    "documentType": "Individual PAN",
+                                    "facematchScore": 0
+                                }
+                            ],
+                            "question": "Please show your PAN card to the camera?"
+                        }
+                    ],
+                    "instructions": [
+                        {
+                            "isIDCardBoxRequired": false,
+                            "isSideNavRequired": false,
+                            "isFaceMatchRequired": true,
+                            "text": "What is your Date of Birth?",
+                            "translations": {
+                                "ENGLISH": "What is your Date of Birth?",
+                                "HINDI": "आपकी जन्म तिथि क्या है?",
+                                "KANNADA": "ನಿಮ್ಮ ಹುಟ್ಟಿದ ದಿನಾಂಕ ಯಾವುದು?",
+                                "BENGALI": "তোমার জন্মদিন কবে?",
+                                "GUJARATI": "તમારી જન્મ તારીખ શું છે?"
+                            },
+                            "enableScreenshot": false,
+                            "isInstructionMandatory": false
+                        },
+                        {
+                            "isIDCardBoxRequired": false,
+                            "isSideNavRequired": false,
+                            "isFaceMatchRequired": true,
+                            "text": "What is your name?",
+                            "translations": {
+                                "ENGLISH": "What is your name?",
+                                "HINDI": "तुम्हारा नाम क्या हे?",
+                                "KANNADA": "ನಿನ್ನ ಹೆಸರೇನು?",
+                                "BENGALI": "আপনার নাম কি?",
+                                "GUJARATI": "તમારું નામ શું છે?"
+                            },
+                            "enableScreenshot": true,
+                            "isInstructionMandatory": true
+                        },
+                        {
+                            "isIDCardBoxRequired": true,
+                            "isSideNavRequired": false,
+                            "isFaceMatchRequired": true,
+                            "text": "Please show your PAN card to the camera?",
+                            "translations": {
+                                "ENGLISH": "Please show your PAN card to the camera?",
+                                "HINDI": "कृपया अपना पैन कार्ड कैमरे को दिखाएं?",
+                                "KANNADA": "ದಯವಿಟ್ಟು ನಿಮ್ಮ ಪ್ಯಾನ್ ಕಾರ್ಡ್ ಅನ್ನು ಕ್ಯಾಮರಾಗೆ ತೋರಿಸಿ?",
+                                "BENGALI": "আপনার প্যান কার্ডটি ক্যামেরায় দেখান?",
+                                "GUJARATI": "કૃપા કરીને કેમેરાને તમારું પાન કાર્ડ બતાવો?"
+                            },
+                            "enableScreenshot": true,
+                            "isInstructionMandatory": true
+                        }
+                    ],
+                    "misData": {
+                        "username": "CRRSA230226000092",
+                        "merchantId": "699bfce15973b6001141489b",
+                        "signzyAppId": 100000003876,
+                        "faceMatchScore": "99",
+                        "startTime": "2026-02-23T15:27:35.234Z",
+                        "endTime": "2026-02-23T15:28:58.869Z",
+                        "Remark": "Successful call",
+                        "consentText": "Make sure you are suitably qualified to take informed consent for this particular procedure.",
+                        "consentTimestamp": null,
+                        "consentRequired": false
+                    },
+                    "pdfReportUrl": "https://persist-vkyc-preproduction.signzy.app/api/files/3727843/download/ebad7e67ba9342bb832502e87917a4822135c5b810cc460cb1487eeeaf6a655d.pdf",
+                    "screenshots": [
+                        {
+                            "finalImage": "",
+                            "screenshots": []
+                        },
+                        {
+                            "finalImage": "https://persist-vkyc-preproduction.signzy.app/api/base64strings/245196/download/601613512a3b403ea1264399104eecf7db0f16b8f9694a1980ccfc868541bdb6.jpeg",
+                            "screenshots": [
+                                "https://persist-vkyc-preproduction.signzy.app/api/base64strings/245193/download/a25a0980d13845f78396b79125eb3ecdcd0d747045a14b51b0a38edc665101be.jpeg"
+                            ],
+                            "captureDateTime": "02-23-2026 03:28:14 PM",
+                            "faceMatchScore": 99,
+                            "facematchDesc": [
+                                [
+                                    {
+                                        "documentType": "DigiLocker Aadhaar",
+                                        "facematchScore": 99
+                                    },
+                                    {
+                                        "documentType": "Individual PAN",
+                                        "facematchScore": 0
+                                    }
+                                ]
+                            ],
+                            "originalImage": "https://persist-vkyc-preproduction.signzy.app/api/base64strings/245193/download/a25a0980d13845f78396b79125eb3ecdcd0d747045a14b51b0a38edc665101be.jpeg",
+                            "watermarked": true
+                        },
+                        {
+                            "finalImage": "https://persist-vkyc-preproduction.signzy.app/api/base64strings/245197/download/a9777ff189154ecfb87138c44fe68ba38eb22c6f6e2b44d5826925c1b17ca265.jpeg",
+                            "screenshots": [
+                                "https://persist-vkyc-preproduction.signzy.app/api/base64strings/245195/download/c9612268bd394f6fb7871f710a7651f907b93009b56a491295507c2701266d16.jpeg"
+                            ],
+                            "captureDateTime": "02-23-2026 03:28:51 PM",
+                            "facematchDesc": [
+                                [
+                                    {
+                                        "documentType": "DigiLocker Aadhaar",
+                                        "facematchScore": 0
+                                    },
+                                    {
+                                        "documentType": "Individual PAN",
+                                        "facematchScore": 0
+                                    }
+                                ]
+                            ],
+                            "originalImage": "https://persist-vkyc-preproduction.signzy.app/api/base64strings/245195/download/c9612268bd394f6fb7871f710a7651f907b93009b56a491295507c2701266d16.jpeg",
+                            "watermarked": true
+                        }
+                    ],
+                    "type": "VCIP",
+                    "unassistedJourneyData": {},
+                    "videoUrl": "https://persist-vkyc-preproduction.signzy.app/api/files/3727842/download/3a63f7049c034acab8843bc6435b2548fa38384c353a497281a23b44ccf58732.mp4"
+                }
+            ],
+            "contract": {
+                "contractResult": {
+                    "finalSignedContract": "https://esign-persist.signzy.tech/api/files/1640072485/download/a01fbcc6de994cabbbff48389c82a602cfd872b3444c416faa04cb402e256def.pdf",
+                    "signatureImage": "",
+                    "dscData": {
+                        "name": "PRAMOD NARAYAN PATIL",
+                        "uidLastFourDigits": "0937"
+                    }
+                }
+            },
+            "contractSDK": {},
+            "contract360": {},
+            "livenessSecure": {},
+            "products": [],
+            "data": [],
+            "browserAndLocationInfo": {
+                "browserInfo": {
+                    "browserName": "Chrome",
+                    "fullVersion": "144.0.0.0",
+                    "majorVersion": 144,
+                    "cookiesEnabled": true,
+                    "browserLanguage": "en-IN",
+                    "platform": true
+                },
+                "locationInfo": {
+                    "ip": "2401:4900:8814:75:5959:3d38:6713:826e",
+                    "network": "2401:4900:8814::/47",
+                    "version": "IPv6",
+                    "city": "Mumbai",
+                    "region": "Maharashtra",
+                    "region_code": "MH",
+                    "country": "IN",
+                    "country_name": "India",
+                    "country_code": "IN",
+                    "country_code_iso3": "IND",
+                    "country_capital": "New Delhi",
+                    "country_tld": ".in",
+                    "continent_code": "AS",
+                    "in_eu": false,
+                    "postal": "400017",
+                    "latitude": 19.0748,
+                    "longitude": 72.8856,
+                    "timezone": "Asia/Kolkata",
+                    "utc_offset": "+0530",
+                    "country_calling_code": "+91",
+                    "currency": "INR",
+                    "currency_name": "Rupee",
+                    "languages": "en-IN,hi,bn,te,mr,ta,ur,gu,kn,ml,or,pa,as,bh,sat,ks,ne,sd,kok,doi,mni,sit,sa,fr,lus,inc",
+                    "country_area": 3287590,
+                    "country_population": 1352617328,
+                    "asn": "AS24560",
+                    "org": "Bharti Airtel Ltd., Telemedia Services"
+                }
+            },
+            "appAndLocationInfo": {},
+            "matcherData": [],
+            "internalNotes": [
+                {
+                    "id": "699c25725712dc0018b22929",
+                    "message": {
+                        "instructions": "",
+                        "subject": "Auto assign",
+                        "reason": ""
+                    },
+                    "logTime": "2026-02-23T10:01:22.381Z",
+                    "type": "logs",
+                    "merchantId": "699bfce15973b6001141489b",
+                    "action": "auto-assign",
+                    "actionBy": "Maker Pool",
+                    "designation": ""
+                },
+                {
+                    "id": "699c25726d793c00104b9d71",
+                    "message": {
+                        "instructions": "",
+                        "subject": "submission",
+                        "reason": ""
+                    },
+                    "logTime": "2026-02-23T10:01:22.089Z",
+                    "type": "logs",
+                    "merchantId": "699bfce15973b6001141489b",
+                    "action": "submitted",
+                    "actionBy": "PRAMOD NARAYAN PATIL",
+                    "designation": ""
+                },
+                {
+                    "id": "699c26071a2751001f082c95",
+                    "message": {
+                        "instructions": "",
+                        "subject": "Reassign to Me",
+                        "reason": "Manual Reassign"
+                    },
+                    "logTime": "2026-02-23T10:03:51.059Z",
+                    "type": "logs",
+                    "merchantId": "699bfce15973b6001141489b",
+                    "actionBy": "self",
+                    "actionTo": "Maker 4",
+                    "backopsUserId": "649e8958defd610c68494dc4",
+                    "action": "reassign",
+                    "designation": ""
+                },
+                {
+                    "id": "699c2620ede1200019c3ef1e",
+                    "message": {
+                        "instructions": "Escallate",
+                        "subject": "Escalate",
+                        "reason": "",
+                        "configuredKeys": {}
+                    },
+                    "logTime": "2026-02-23T10:04:16.579Z",
+                    "type": "logs",
+                    "merchantId": "699bfce15973b6001141489b",
+                    "action": "escalate",
+                    "actionBy": "Maker_4",
+                    "designation": "Maker",
+                    "actionByName": "Maker 4",
+                    "actionTab": "contract",
+                    "escalateLog": "Application escalated",
+                    "backopsUserId": "649e8958defd610c68494dc4"
+                },
+                {
+                    "id": "699c265d5973b60011414962",
+                    "message": {
+                        "instructions": "",
+                        "subject": "Reassign to Me",
+                        "reason": "Manual Reassign"
+                    },
+                    "logTime": "2026-02-23T10:05:17.307Z",
+                    "type": "logs",
+                    "merchantId": "699bfce15973b6001141489b",
+                    "actionBy": "self",
+                    "actionTo": "Checker",
+                    "backopsUserId": "68664634cd050ec131ce28e6",
+                    "action": "reassign",
+                    "designation": ""
+                },
+                {
+                    "id": "699c26655712dc0018b22932",
+                    "message": {
+                        "instructions": "",
+                        "subject": "accept",
+                        "reason": ""
+                    },
+                    "logTime": "2026-02-23T10:05:25.458Z",
+                    "type": "logs",
+                    "merchantId": "699bfce15973b6001141489b",
+                    "action": "accept",
+                    "escalateLog": "Application escalated",
+                    "actionBy": "Checker_CCIL",
+                    "actionByName": "Checker",
+                    "designation": "Checker",
+                    "actionTab": "contract",
+                    "backopsUserId": "68664634cd050ec131ce28e6"
+                }
+            ]
+        },
+        "merchantAuditData": [],
+        "submerchantAuditData": []
+    }
+}
